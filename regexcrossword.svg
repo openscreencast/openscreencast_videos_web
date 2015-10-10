@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="720"
+   id="svg7831"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="cssdiner.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/home/paul/todo/klassen_o.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs7833">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective7839" />
+    <inkscape:perspective
+       id="perspective2848"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76"
+     inkscape:cx="647.6088"
+     inkscape:cy="402.40928"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1378"
+     inkscape:window-height="886"
+     inkscape:window-x="335"
+     inkscape:window-y="190"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7836">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7841"
+       width="1280"
+       height="720"
+       x="0"
+       y="0"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:31.23046303px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="675.55719"
+       y="63.622601"
+       id="text7843"
+       transform="scale(0.9454028,1.0577502)"><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="63.622601"
+         id="tspan3002">Screencast: Reguläre Ausdrücke mit Regex Cross­word lernen</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="102.66068"
+         id="tspan3009" /><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="141.69876"
+         id="tspan2834">www.openscreencast.de</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="180.73683"
+         id="tspan7851" /><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="219.77492"
+         id="tspan7855">Ausgangspunkt: Linux Mint 17.1</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="258.81299"
+         id="tspan3011" /><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="297.85107"
+         id="tspan2836">Datum: 28.01.2015</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="336.88916"
+         id="tspan7865" /><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="375.92725"
+         id="tspan7857">Lizenz: Creative Commons by</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="414.9653"
+         id="tspan3004">http://creativecommons.org/licenses/by/4.0/</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="454.00339"
+         id="tspan3038" /><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="493.04147"
+         id="tspan3008">Textquelle:</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="524.87256"
+         id="tspan3030"
+         style="font-size:24px">http://linuxundich.de/gnu-linux/regulare-ausdruecke-lernen-regex-crossword/</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="562.07953"
+         id="tspan3032">&quot;Reguläre Ausdrücke mit Regex Cross­word lernen&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="601.11761"
+         id="tspan3005">von Christoph Langner (http://linuxundich.de/)</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="640.1557"
+         id="tspan3016">Lizenz: http://creativecommons.org/licenses/by/4.0/</tspan><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="679.19379"
+         id="tspan3057" /><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="718.23187"
+         id="tspan7861" /><tspan
+         sodipodi:role="line"
+         x="675.55719"
+         y="757.26996"
+         id="tspan4096" /></text>
+  </g>
+</svg>
