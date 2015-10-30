@@ -1,0 +1,111 @@
+1
+00:00:05,000 --> 00:00:09,900
+Hallo - In diesem Screencast moechte ich den textualizer vorstellen
+
+2
+00:00:10,000 --> 00:00:16,900
+textualizer ist ein jQuery-Plugin, das Texte animiert, wie man hier schon sieht
+
+3
+00:00:17,000 --> 00:00:20,900
+der textualizer ist auf dieser Webseite zu finden (kiro.me/textualizer/)
+
+4
+00:00:21,000 --> 00:00:31,900
+Wie kann man nun den textualizer anwenden, fuer seine Zwecke, auf seiner Webseite
+
+5
+00:00:32,000 --> 00:00:38,900
+man erstellt eine Webseite und bindet die folgenden Skripte ein
+
+6
+00:00:39,000 --> 00:00:52,900
+einmal das jQuery-Skript und dann direkt das textualizer-Skript, direkt mit diesen beiden URLs
+
+7
+00:00:53,000 --> 00:00:58,900
+die Skripte kann man sich auch herunterladen auf seinen PC oder auf seinen Webserver
+
+8
+00:00:59,000 --> 00:01:02,900
+so muss man selbstverstaendlich die URL auch veraendern
+
+9
+00:01:03,000 --> 00:01:09,900
+beachten sollte man ebenfalls die Lizenzen der beiden Skripte
+
+10
+00:01:10,000 --> 00:01:18,900
+dann geht es weiter, es gibt einen div-Container mit einer bestimmten id
+
+11
+00:01:19,000 --> 00:01:22,900
+in diesem div-Container sollen dann die Texte angezeigt werden
+
+12
+00:01:23,000 --> 00:01:30,900
+per CSS wird der div-Container bzw. der Inhalt formatiert
+
+13
+00:01:31,000 --> 00:01:37,900
+hier kann man die Textgroesse veraendern, die Textfarbe, die Groesse des Containers usw.
+
+14
+00:01:38,000 --> 00:01:43,900
+und dann geht es hier unten mit dem textualizer los
+
+15
+00:01:44,000 --> 00:01:52,900
+es gibt eine Variable, die heisst list, und in dieser Variable kann man verschiedene Texte angeben
+
+16
+00:01:53,000 --> 00:01:58,900
+mehrere Texte, die dann animiert, also vom textualizer dann angezeigt werden
+
+17
+00:01:59,000 --> 00:02:03,900
+es gibt Optionen, wie lange wird ein Text angezeigt
+
+18
+00:02:04,000 --> 00:02:10,900
+wie lange dauert es bis sich die Zeichen bewegen, zum neuen Text
+
+19
+00:02:11,000 --> 00:02:17,900
+und mit welchem Effekt passiert das, diese Effekte hier gibt es
+
+20
+00:02:18,000 --> 00:02:26,900
+dann wird der textualizer an den div-Container mit der bestimmten id gebunden
+
+21
+00:02:28,000 --> 00:02:37,900
+und dann werden die Variablen, die Texte und die Optionen, dem textualizer uebergeben
+
+22
+00:02:38,000 --> 00:02:46,900
+der textualizer wird mit dieser Funktion gestartet, ausserdem gibt es noch diese Funktionen
+
+23
+00:02:47,000 --> 00:02:58,900
+um den textualizer zu stoppen, mal eine Pause zu machen, bzw. um die Instanz vom textualizer ganz zu loeschen
+
+24
+00:02:59,000 --> 00:03:11,900
+und so funktioniert das dann, erstmal speichern und dann die html-Datei aufrufen, mit Firefox z.B.
+
+25
+00:03:12,000 --> 00:03:19,900
+und das ist dann das Endergebnis, Text1 wird als erstes angezeigt
+
+26
+00:03:20,000 --> 00:03:25,900
+dann Hello World und Screencasts
+
+27
+00:03:37,000 --> 00:03:39,900
+Tschau und viel Glueck
+
+28
+00:03:40,000 --> 00:03:40,001
+Lizenz: http://creativecommons.org/licenses/by/3.0/

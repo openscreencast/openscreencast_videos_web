@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:06,900
+Hallo - In diesen Video moechte ich auf popcorn.js aufmerksam machen
+
+2
+00:00:07,000 --> 00:00:13,900
+popcorn.js ist ein HTML5 Media Javascript Framework von Mozilla
+
+3
+00:00:14,000 --> 00:00:20,900
+Jeder der interaktive Medien ins Web bringen moechte kann dieses Framework popcorn.js einsetzen
+
+4
+00:00:21,000 --> 00:00:28,900
+Zum einen gibt es die Seite mozillapopcorn.org fuer das Mozilla-Popcorn-Projekt
+
+5
+00:00:29,000 --> 00:00:34,900
+Und ebenso gibt es noch die Seite popcornjs.org fuer das Framework
+
+6
+00:00:35,000 --> 00:00:41,900
+wo man sich Demos anschauen kann und eine Dokumentation steht ebenfalls zur Verfuegung
+
+7
+00:00:42,000 --> 00:00:49,900
+OK, dann ein kleines Beispiel, wie funktioniert das Ganze
+
+8
+00:00:50,000 --> 00:00:52,900
+Ich habe schon mal eine HTML-Seite vorbereitet
+
+9
+00:00:53,000 --> 00:01:01,900
+mit dem video-Tag mit der id Video und mit dem Video o.ogv
+
+10
+00:01:02,000 --> 00:01:06,900
+und mit einem div-Container mit der id text
+
+11
+00:01:07,000 --> 00:01:14,900
+so wird dann das Video geladen und auch abgespielt
+
+12
+00:01:15,000 --> 00:01:19,900
+und im div-Container wird dann der Text angezeigt
+
+13
+00:01:20,000 --> 00:01:33,900
+In Zeile 2 wird das popcorn.js Framework geladen per script src
+
+14
+00:01:34,000 --> 00:01:40,900
+wenn das geladen wurde stehen alle Funktionen zur Verfuegung
+
+15
+00:01:41,000 --> 00:01:46,900
+in Zeile 4 wird sichergestellt dass die Seite geladen wurde
+
+16
+00:01:47,000 --> 00:02:03,900
+in Zeile 6 wird eine neue Popcorn-Instanz bezueglich der Video-Tag id video erstellt
+
+17
+00:02:04,000 --> 00:02:15,900
+Das Plugin footnote macht es moeglich dass Text (Fussnoten) zu einem Element auf der Website hinzugefuegt wird
+
+18
+00:02:16,000 --> 00:02:24,900
+Das Plugin footnote kommt in Zeile 8 und 14 zum Einsatz
+
+19
+00:02:25,000 --> 00:02:41,900
+von Sekunde 0 bis 3 wird der Text Hallo World im div-Container mit der id text angezeigt
+
+20
+00:02:42,000 --> 00:02:55,900
+und von Sekunde 3 bis 6 wird der Text popcorn.js ebenso im div-Container mit der id text angezeigt
+
+21
+00:02:56,000 --> 00:03:04,900
+dann in Zeile 21 wird das Video abgespielt ohne das man vorher auf den Play-Button gedrueckt hat
+
+22
+00:03:05,000 --> 00:03:11,900
+und in Zeile 22 wird die Lautstaerke auf 0 gesetzt
+
+23
+00:03:12,000 --> 00:03:17,900
+OK, so weit, so gut
+
+24
+00:03:18,000 --> 00:03:23,900
+dann kann es losgehen, ich lade die Seite neu
+
+25
+00:03:24,000 --> 00:03:28,900
+und dann wird hier unten der Text im div-Container mit der id text angezeigt
+
+26
+00:03:29,000 --> 00:03:32,900
+einmal Hallo World und popcorn.js
+
+27
+00:03:35,000 --> 00:03:37,900
+Tschau und viel Glueck
+
+28
+00:03:38,000 --> 00:03:38,001
+Dieses Dokument steht unter der Lizenz http://creativecommons.org/licenses/by/3.0/

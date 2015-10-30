@@ -1,0 +1,107 @@
+1
+00:00:01,000 --> 00:00:10,900
+Hallo - In diesem Video moechte ich das Plugin timeline vom HTML5 Media Javascript Framework popcorn.js vorstellen
+
+2
+00:00:11,000 --> 00:00:22,900
+Dieses Plugin timeline bewirkt, dass es eine Informationsanzeige gibt, und zu dieser Anzeige kommen immer neue Informationen hinzu
+
+3
+00:00:23,000 --> 00:00:27,900
+Ein Beipsiel, ich habe hier eine HTML-Seite
+
+4
+00:00:28,000 --> 00:00:34,900
+mit dem Video-Tag mit der id video und dem Video o.ogv
+
+5
+00:00:35,000 --> 00:00:38,900
+und es gibt auch einen div-Container mit der id text
+
+6
+00:00:39,000 --> 00:00:43,900
+in Zeile 2 wird das Framework popcorn.js eingebunden
+
+7
+00:00:44,000 --> 00:00:49,900
+in Zeile 4 wird sichergestellt dass die HTML-Seite vollstaendig geladen wurde
+
+8
+00:00:50,000 --> 00:01:00,900
+in Zeile 6 wird eine neue popcorn-Instanz erstellt, gebunden an die Video-Tag id video
+
+9
+00:01:01,000 --> 00:01:08,900
+und in Zeile 33 wird dann das Video automatisch gestartet
+
+10
+00:01:09,000 --> 00:01:13,900
+in Zeile 8, 16 und 24 kommt dann das Plugin zum Einsatz
+
+11
+00:01:14,000 --> 00:01:23,900
+das bedeutet ab Sekunde 1 wird im div-container mit der id text angezeigt, zum einen der Titel
+
+12
+00:01:24,000 --> 00:01:29,900
+der Text wird ebenfalls angezeigt und auch noch innerHTML
+
+13
+00:01:30,000 --> 00:01:35,900
+also diese 3 Elemente werden angezeigt, und zwar oben
+
+14
+00:01:36,000 --> 00:01:51,900
+ab Sekunde 3 wird im div-container mit der id text, der Text 2) popcorn.js angezeigt, ebenso popcorn.js und darunter auch noch ein Bild
+
+15
+00:01:52,000 --> 00:01:58,900
+ab Sekunde 6 wird im div-container mit der id text, 3) Hello World angezeigt
+
+16
+00:01:59,000 --> 00:02:02,900
+ebenso Hello World und auch x, und zwar ganz oben
+
+17
+00:02:03,000 --> 00:02:11,900
+das bedeutet ab Sekunde 1 werden die 3 Elemente angezeigt
+
+18
+00:02:12,000 --> 00:02:24,900
+und immer wenn eine neue Information hinzukommt, wandert der aeltere Text nach unten und der neue Text wird oben angezeigt
+
+19
+00:02:25,000 --> 00:02:33,900
+und das sieht dann so aus, HTML-Seite neu laden
+
+20
+00:02:38,000 --> 00:02:42,900
+ebenso ist es moeglich, anders herum
+
+21
+00:02:43,000 --> 00:02:48,900
+also dass der neue Text unten angezeigt wird
+
+22
+00:02:49,000 --> 00:02:56,900
+so ersetzt man dann up durch down
+
+23
+00:02:57,000 --> 00:03:06,900
+OK, Seite neu laden
+
+24
+00:03:07,000 --> 00:03:22,900
+ebenso kann man auch die Anzeige beenden, und zwar mit end: z.B. hier mal 7
+
+25
+00:03:23,000 --> 00:03:32,900
+das bedeutet ab Sekunde 7 wird diese Information nicht mehr angezeigt
+
+26
+00:03:41,000 --> 00:03:42,900
+Tschau und viel Glueck
+
+27
+00:03:43,000 --> 00:03:43,001
+Dieses Dokument steht unter der Lizenz http://creativecommons.org/licenses/by/3.0/

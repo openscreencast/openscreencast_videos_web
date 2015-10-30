@@ -1,0 +1,123 @@
+1
+00:00:01,000 --> 00:00:11,900
+Hallo - In diesem Video moechte ich das Plugin subtitle vom HTML5 Media Javascript Framework popcorn.js vorstellen
+
+2
+00:00:12,000 --> 00:00:17,900
+Mit diesem Plugin subtitle ist eine Untertitel-Anzeige realisierbar
+
+3
+00:00:18,000 --> 00:00:21,900
+Ein Beipsiel, ich habe hier eine HTML-Seite
+
+4
+00:00:22,000 --> 00:00:28,900
+mit dem Video-Tag mit der id video und dem Video o.ogv
+
+5
+00:00:29,000 --> 00:00:31,900
+und es gibt noch einen div-Container mit der id text
+
+6
+00:00:32,000 --> 00:00:40,900
+in Zeile 2 wird das popcorn-Framework eingebunden sodass alle Funktionen zur Verfuegung stehen
+
+7
+00:00:41,000 --> 00:00:46,900
+in Zeile 4 wird sichergestellt dass die HTML-Seite vollstaendig geladen wurde
+
+8
+00:00:47,000 --> 00:00:55,900
+und in Zeile 6 wird eine neue popcorn-Instanz erstellt, gebunden an die Video-Tag id video
+
+9
+00:00:56,000 --> 00:01:00,900
+in Zeile 18 wird dann das Video automatisch gestartet
+
+10
+00:01:01,000 --> 00:01:07,900
+in Zeile 8 und in Zeile 12 kommt dann das Plugin subtitle zum Einsatz
+
+11
+00:01:08,000 --> 00:01:13,900
+von Sekunde 0 bis Sekunde 3 wird hello world angezeigt
+
+12
+00:01:14,000 --> 00:01:18,900
+und von Sekunde 3 bis Sekunde 6 wird popcorn.js angezeigt
+
+13
+00:01:19,000 --> 00:01:29,900
+OK - Seite laden bzw. neu laden, und der Untertitel wird unten im Video angezeigt
+
+14
+00:01:30,000 --> 00:01:35,900
+die Anzeige kann man auch verlagern z.B. in den div-Container mit der id text
+
+15
+00:01:36,000 --> 00:01:48,900
+so kommt dann noch hinzu target: "text" - die id vom div-Container
+
+16
+00:01:50,000 --> 00:02:00,900
+hier genauso, OK, Speichern und Seite neu laden
+
+17
+00:02:01,000 --> 00:02:08,900
+so wird der Untertitel dann im div-Container angezeigt
+
+18
+00:02:09,000 --> 00:02:13,900
+Ebenso ist es moeglich dass man sich HTML-Elemente anzeigen lassen kann
+
+19
+00:02:14,000 --> 00:02:27,900
+z.B. ein Bild, so kann man z.B. ein img-Tag einbinden
+
+20
+00:02:28,000 --> 00:02:43,900
+jetzt die Bilddatei, Speichern und Seite neu laden
+
+21
+00:02:44,000 --> 00:02:50,900
+so wird dann ein Bild angezeigt
+
+22
+00:02:51,000 --> 00:02:58,900
+Ebenso ist es moeglich Untertitel-Dateien einzubinden
+
+23
+00:02:59,000 --> 00:03:05,900
+sodass die Untertitel dann aus der Datei gezogen werden und angezeigt werden
+
+24
+00:03:06,000 --> 00:03:13,900
+ein Bsp., eine Unteritel-Datei waere z.B. so eine hier, im srt-Format
+
+25
+00:03:14,000 --> 00:03:25,900
+diese Datei kann ich jetzt einbinden, dann brauche ich den Teil nicht mehr, von Zeile 4 bis Zeile 19
+
+26
+00:03:26,000 --> 00:03:27,900
+den kann ich auskommentieren
+
+27
+00:03:28,000 --> 00:03:59,900
+OK, und beim Video-Tag kommt dann noch hinzu data-timeline-sources="file:///home/paul/o.srt"
+
+28
+00:04:00,000 --> 00:04:08,900
+OK, Speichern und Seite neu laden
+
+29
+00:04:09,000 --> 00:04:20,900
+so wird der Inhalt von der Untertitel-Datei angezeigt
+
+30
+00:04:31,000 --> 00:04:33,900
+Tschau und viel Glueck
+
+31
+00:04:34,000 --> 00:04:34,001
+Dieses Dokument steht unter der Lizenz http://creativecommons.org/licenses/by/3.0/
