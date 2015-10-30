@@ -1,0 +1,91 @@
+1
+00:00:08,000 --> 00:00:15,900
+Hallo - In diesem Video geht es um das Plugin Attribution von popcorn.js
+
+2
+00:00:16,000 --> 00:00:22,900
+popcorn.js ist ein HTML5 Media Javascript Framework von Mozilla
+
+3
+00:00:23,000 --> 00:00:30,900
+und in Zeile 3 wird dieses Framework eingebunden, so dass alle Befehle zur Verfügung stehen
+
+4
+00:00:31,000 --> 00:00:35,900
+in Zeile 26 gibt es ein Video-Tag mit der Quelle v.ogg (Videodatei)
+
+5
+00:00:36,000 --> 00:00:42,900
+und mit der Höhe 720 Pixel und Breite 1280 Pixel und mit der id video
+
+6
+00:00:43,000 --> 00:00:48,900
+zusätzlich gibt es noch einen div-Container mit der id info
+
+7
+00:00:49,000 --> 00:00:59,900
+Zeile 5 stellt sicher dass der ganze HTML-Code geladen wird bevor die Befehle ausgeführt werden
+
+8
+00:01:00,000 --> 00:01:09,900
+in Zeile 7 wird dann eine Instanz erstellt, eine popcorn-Instanz mit dem Namen pop
+
+9
+00:01:10,000 --> 00:01:16,900
+in Zeile 21 wird die Lautstärke auf 0 gestellt
+
+10
+00:01:17,000 --> 00:01:22,900
+und in Zeile 9 kommt dann das Plugin zum Einsatz
+
+11
+00:01:23,000 --> 00:01:27,900
+Attribution heisst so viel wie Zuordnung und darum geht es auch
+
+12
+00:01:28,000 --> 00:01:31,900
+zusätzliche Informationen werden angezeigt
+
+13
+00:01:32,000 --> 00:01:39,900
+hier z.B. von Sekunde 0 bis Sekunde 5, also 5 Sekunden lang
+
+14
+00:01:40,000 --> 00:01:48,900
+werden diese Informationen angezeigt und zwar im div-Container mit der id info
+
+15
+00:01:49,000 --> 00:02:00,900
+es wird angezeigt: was das Werk für einen Titel hat, ob es zusätzliche Informationen auf einer HTML-Seite gibt
+
+16
+00:02:01,000 --> 00:02:09,900
+dann der Urheber, gibt es noch zusätzliche Details zum Urheber auf einer HTML-Seite
+
+17
+00:02:10,000 --> 00:02:17,900
+wie heisst die Lizenz und gibt es dazu noch zusätzliche Informationen auf einer HTML-Seite
+
+18
+00:02:18,000 --> 00:02:27,900
+das ganze sieht dann so aus, hier habe ich schon mal die HTML-Seite geladen
+
+19
+00:02:28,000 --> 00:02:31,900
+und dann drücke ich gleich mal auf Play
+
+20
+00:02:32,000 --> 00:02:39,900
+und so werden hier unten die zusätzlichen Informationen von Sekunde 0 bis Sekunde 5 angezeigt
+
+21
+00:02:40,000 --> 00:02:47,900
+Lizenz, Titel des Werks, Urheber
+
+22
+00:02:50,000 --> 00:02:51,900
+Tschau und viel Glueck
+
+23
+00:02:52,000 --> 00:02:52,001
+Dieses Dokument steht unter der Lizenz http://creativecommons.org/licenses/by/3.0/
