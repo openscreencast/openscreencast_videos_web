@@ -1,0 +1,167 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo - Webzugriff
+
+2
+00:00:09,000 --> 00:00:12,900
+Normalerweise muss man nicht im Detail wissen, wie ein Browser auf eine Webseite zugreift
+
+3
+00:00:13,000 --> 00:00:18,900
+Die genaue Kenntnis der Vorgaenge kann jedoch bei der Fehlersuche eine grosse Hilfe sein
+
+4
+00:00:19,000 --> 00:00:20,900
+Zerlegen der URL
+
+5
+00:00:21,000 --> 00:00:24,900
+Der erste Schritt besteht in der Analyse der URL
+
+6
+00:00:25,000 --> 00:00:28,900
+So wird diese in die drei wichtigen Bestandteile Protokoll
+
+7
+00:00:29,000 --> 00:00:32,900
+Servername und Pfad auf dem Zielsystem zerlegt
+
+8
+00:00:33,000 --> 00:00:36,900
+Beim Protokoll wird gewoehnlich HTTP verwendet
+
+9
+00:00:37,000 --> 00:00:43,900
+Wird kein Port angegeben, so ist es der www-Port oder auch der http-Port
+
+10
+00:00:44,000 --> 00:00:48,900
+Das ist ein Alias, wie in /etc/services definiert
+
+11
+00:00:49,000 --> 00:00:52,900
+Die Datei kann man sich auch anschauen - man startet ein Terminal
+
+12
+00:00:53,000 --> 00:01:06,900
+und gibt ein cat /etc/services - cat /etc/services | grep "www "
+
+13
+00:01:09,000 --> 00:01:15,900
+Definiert sind die Services in der Regel immer fuer beide Protokolle, also TCP und UDP
+
+14
+00:01:16,000 --> 00:01:20,900
+Nur wird wohl keiner jemals UDP fuer HTTP verwenden
+
+15
+00:01:21,000 --> 00:01:31,900
+Neben HTTP wird oft noch HTTP over ssL/TLS verwendet, das wird durch https angegeben
+
+16
+00:01:32,000 --> 00:01:41,900
+Dabei wird zwischen dem Transportprotokoll TCP und HTTP noch eine Verschluesselungsschicht eingebaut
+
+17
+00:01:42,000 --> 00:01:48,900
+Da gibt es oft noch FTP, hier wird ganz normal Port 21 verwendet
+
+18
+00:01:49,000 --> 00:01:54,900
+Aber auch der Zugriff auf lokale Dateien ist mit file moeglich
+
+19
+00:01:55,000 --> 00:02:00,900
+Nach dem Protokoll folgt ein Doppelpunkt und zwei Slashes ://
+
+20
+00:02:01,000 --> 00:02:09,900
+Bis zum naechsten Slash folgt dann der Servername, gefolgt vom Pfad auf dem Zielsystem
+
+21
+00:02:10,000 --> 00:02:33,900
+Also bei http://www.lug-erding.de/index.html
+
+22
+00:02:34,000 --> 00:02:43,900
+ist HTTP das Protokoll, www.lug-erding.de der Servername
+
+23
+00:02:44,000 --> 00:02:48,900
+und index.html der Pfad zu den Daten auf dem Zielsystem
+
+24
+00:02:49,000 --> 00:02:57,900
+Gewoehnlich kann index.html weggelassen werden, dann besteht der Pfad nur aus dem Schraegstrich
+
+25
+00:02:58,000 --> 00:03:05,900
+Der Webserver liefert dann in aller Regel die Datei index.html aus
+
+26
+00:03:06,000 --> 00:03:14,900
+oder eine Lokalisierung wie z. B. index.html.de, falls der Browser die deutsche Sprache bevorzugt
+
+27
+00:03:15,000 --> 00:03:19,900
+Wer sich schon einmal gewundert hat
+
+28
+00:03:20,000 --> 00:03:25,900
+warum der Browser beim Zugriff auf lokale Dateien drei Slashes in die URL einbaut
+
+29
+00:03:26,000 --> 00:03:28,900
+hat nun die Antwort - Der Servername ist leer
+
+30
+00:03:29,000 --> 00:03:36,900
+Anderenfalls wuerde er den ersten Pfadteil als Servernamen interpretieren
+
+31
+00:03:37,000 --> 00:03:40,900
+Das ergibt bei file natuerlich keinen Sinn
+
+32
+00:03:41,000 --> 00:03:47,900
+Die URL fuer den lokalen Dateizugriff koennte also so aussehen
+
+33
+00:03:48,000 --> 00:04:06,900
+file:///home/paul/index.html
+
+34
+00:04:07,000 --> 00:04:18,900
+Auch die Protokollnamen, TCP oder UDP, also das naechst hoehere Protokoll nach IP
+
+35
+00:04:19,000 --> 00:04:26,900
+kann in die entsprechenden Zahlenwerte per /etc/protocols aufgeloest werden
+
+36
+00:04:27,000 --> 00:04:35,900
+Die Datei kann man sich auch anschauen - cat /etc/protocols
+
+37
+00:04:36,000 --> 00:04:44,900
+cat /etc/protocols | grep udp - cat /etc/protocols | grep tcp
+
+38
+00:04:46,000 --> 00:04:53,900
+TCP ist also das IP-Protokoll 6, UDP hat die Nummer 17
+
+39
+00:04:54,000 --> 00:04:58,900
+Es ist auch spaeter entstanden und deutlich einfacher als TCP
+
+40
+00:05:01,000 --> 00:05:03,900
+Tschau und viel Glueck
+
+41
+00:05:04,000 --> 00:05:04,001
+Quelle: http://www.freiesmagazin.de/freiesMagazin-2011-08 Webzugriff Lizenz: http://creativecommons.org/licenses/by-sa/3.0/ Autor: Dirk Geschke
+
+42
+00:05:04,002 --> 00:05:04,003
+Dieses Untertitel-Dokument steht unter der Lizenz: http://creativecommons.org/licenses/by-sa/3.0/
