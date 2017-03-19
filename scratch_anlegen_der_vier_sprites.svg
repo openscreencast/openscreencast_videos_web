@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="720"
+   id="svg7831"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="scratch_anlegen_der_vier_sprites.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/home/paul/todo/klassen_o.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs7833">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective7839" />
+    <inkscape:perspective
+       id="perspective2848"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76"
+     inkscape:cx="717.50482"
+     inkscape:cy="340.36675"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1378"
+     inkscape:window-height="886"
+     inkscape:window-x="483"
+     inkscape:window-y="166"
+     inkscape:window-maximized="0"
+     showguides="false" />
+  <metadata
+     id="metadata7836">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect7841"
+       width="1280"
+       height="720"
+       x="0"
+       y="0"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.93526459px;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="653.69672"
+       y="33.310799"
+       id="text7843"
+       transform="scale(0.97701885,1.0235217)"><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="33.310799"
+         id="tspan3360">Screencast: Scratch-Tutorial (Teil 2) - Anlegen der vier Sprites</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="68.229881"
+         id="tspan7851">www.openscreencast.de</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="103.14896"
+         id="tspan3011">Ausgangspunkt: Linux Mint 18.1</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="138.06804"
+         id="tspan7865">Datum: 19.03.2017</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="172.98712"
+         id="tspan7857">Lizenz: Creative Commons by-sa</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="207.9062"
+         id="tspan2838">http://creativecommons.org/licenses/by-sa/4.0/</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="242.82529"
+         id="tspan3004" /><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="277.74435"
+         id="tspan3031">Textquellen: RIS Journal Ausgabe 001 - Scratch 2 Tutorial</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="312.66345"
+         id="tspan3459">http://spielend-programmieren.at/de:ris:001</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="347.58252"
+         id="tspan3477">freiesMagazin 03/2014</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="379.5759"
+         id="tspan3475"
+         style="font-size:25px">http://www.freiesmagazin.de/mobil/freiesMagazin-2014-03-bilder.html#fm_14_03_scratch2_tutorial</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="413.75162"
+         id="tspan3457">von Horst Jens (http://spielend-programmieren.at)</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="448.67068"
+         id="tspan3455">Lizenz: http://creativecommons.org/licenses/by-sa/4.0/</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="483.58978"
+         id="tspan3461" /><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="518.50885"
+         id="tspan3463">Scratch-Anwendung</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="553.42792"
+         id="tspan3465">Lizenz: http://creativecommons.org/licenses/by-sa/2.0/deed.en</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="588.34698"
+         id="tspan3467">Scratch wird von der Lifelong-Kindergarten-Group am MIT-Media-Lab entwickelt.</tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="623.26611"
+         id="tspan3469">Siehe http://scratch.mit.edu</tspan><tspan
+         sodipodi:role="line"
+         x="658.14343"
+         y="658.18518"
+         id="tspan3471">(Ausgenommen von der Lizenz sind lediglich das Scratch-Logo, </tspan><tspan
+         sodipodi:role="line"
+         x="658.14343"
+         y="693.10425"
+         id="tspan3473">die Scratch-Katze und Gobo (Scratch-Markenzeichen))  </tspan><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="728.02332"
+         id="tspan3057" /><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="762.94238"
+         id="tspan7861" /><tspan
+         sodipodi:role="line"
+         x="653.69672"
+         y="797.86151"
+         id="tspan4096" /></text>
+  </g>
+</svg>
